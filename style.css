@@ -631,6 +631,21 @@ font-weight: 600;
 
 /*==========SINGLE PRODUCT======*/
 
+
+
+.fullsize{
+    border: 2px solid black;
+    z-index: 999;
+    cursor:zoom-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: 75%;
+    position: fixed;
+    border-radius: 5px;
+}
+
 #prodetails{
 display: flex;
 margin-top: 20px;    
@@ -1052,6 +1067,19 @@ justify-content: space-between;
     .section-p1{
         padding : 40px 60px;
     }
+    .fullsize{
+        border: 2px solid black;
+        z-index: 999;
+        cursor:zoom-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 55%;
+        position: fixed;
+        border-radius: 5px;
+    }
+    
     #feature{
         justify-content: center;
      }
@@ -1087,6 +1115,18 @@ justify-content: space-between;
 
 /*Med Tab screen*/
 @media (max-width:799px) {
+    .fullsize{
+        border: 2px solid black;
+        z-index: 999;
+        cursor:zoom-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 70%;
+        position: fixed;
+        border-radius: 5px;
+    }
     .section-p1{
         padding : 40px 40px;
     }
@@ -1258,6 +1298,19 @@ width: 100%;
 @media(max-width: 479px){
     #header{
         padding :10px 30px; 
+    }
+
+    .fullsize{
+        border: 2px solid black;
+        z-index: 999;
+        cursor:zoom-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 50%;
+        position: fixed;
+        border-radius: 5px;
     }
     #hero{
         padding:0 20px;

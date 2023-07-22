@@ -31,7 +31,7 @@
    
     <section id="prodetails" class="section-p1">
     <div class="sproimage">
-<img src="images/f1.jpg" width="100%" id="Mainimage">
+<img src="images/f1.jpg" width="100%" id="Mainimage" onclick="change(this)">
 <div class="smallimggroup">
 <div class="smallimgcol">
     <img src="images/f5.jpg" width="100%" class="smallimage">
@@ -216,9 +216,12 @@
 </footer>
 <script>
     var Mainimge=document.getElementById("Mainimage");
+    
     var smallimge= document.getElementsByClassName("smallimage");
     smallimge[0].onclick= function(){
+      
         Mainimge.src= smallimge[0].src;
+       
     }
     smallimge[1].onclick= function(){
         Mainimge.src= smallimge[1].src;
