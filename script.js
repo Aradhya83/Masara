@@ -13,6 +13,8 @@ if(close){
     })
 }
 
+const totop=() =>window.scrollTo({top:0,behavior:'smooth'});
+
 var Mainimge=document.getElementById("Mainimage");
     var smallimge= document.getElementsByClassName("smallimage");
     smallimge[0].onclick= function(){
@@ -28,7 +30,7 @@ var Mainimge=document.getElementById("Mainimage");
         Mainimge.src= smallimge[3].src;
     }
 
-const totop=() =>window.scrollTo({top:0,behavior:'smooth'});
+
  
 function change(element){
     element.classList.toggle("fullsize");
