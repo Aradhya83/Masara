@@ -12,3 +12,8 @@ if(close){
         nav.classList.remove('active');
     })
 }
+
+
+
+
+const totop=() =>window.scrollTo({top:0,behavior:'smooth',scrollEase: 0.05});

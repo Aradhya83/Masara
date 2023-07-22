@@ -576,6 +576,25 @@ footer .copyright{
     text-align: center;
 }
 
+
+/*=========Back to top==============*/
+.backtotop button{
+    font-size: 14px;
+    background-color: #606063;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+    border: none;
+}
+.backtotop button:hover{
+background-color: #088178;
+}
+
+.backtotop{
+    display: flex;
+    justify-content: center;
+}
 /*========SHOP PAGE========== */
 #page-header{
     background-image: url("images/bb2.jpg");
@@ -1336,6 +1355,9 @@ width: 100%;
                     }
 
   /* BLOG PAGE */ 
+  .backtotop{
+    font-size: 10px;
+  }
 
   #blog {
     padding: 100px 20px 0 20px;
