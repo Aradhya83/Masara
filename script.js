@@ -13,4 +13,4 @@ if(close){
     })
 }
 
-const totop=() =>window.scrollTo({top:0,behavior:'smooth',scrollEase: 0.05});
+const totop=() =>window.scrollTo({top:0,behavior:'smooth'});
